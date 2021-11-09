@@ -1,0 +1,488 @@
+.wrapper {
+  background: white;
+  width: 100%;
+}
+
+.option-availible {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header button {
+  background: white;
+  color: hsl(14, 0%, 0%);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  border: none;
+}
+
+header button:hover {
+  color: hsl(14, 10%, 50%);
+}
+
+.thomas-the-train {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 66px;
+}
+
+.nav-buttons {
+  padding-left: 125px;
+}
+
+.profile-or-shop {
+  padding-left: 388px;
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-to-boosted {
+  position: relative;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 45px;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 51px;
+}
+
+.revolutionary-scooter {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.title button {
+  color: white;
+  background: #ff4a32;
+  border-radius: 35px;
+  width: 201px;
+  height: 33px;
+  border: none;
+}
+
+.boosted-button {
+  padding-left: 12px;
+}
+
+.title button:hover {
+  background-color: #ff4a67;
+}
+
+.sponsor {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 24px;
+  padding-top: 18px;
+}
+
+.boosted-shop {
+  margin-top: 52px;
+}
+
+.boosted-shop h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.boosted-shop p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.robinzon {
+  width: 70px;
+  height: 2px;
+  color: #cfcfcf;
+}
+
+.skateboards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  margin: 72px;
+}
+
+.skateboard-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.rock {
+  position: relative;
+}
+
+.titan {
+  position: relative;
+}
+
+.boosted-boards {
+  position: absolute;
+  z-index: 2;
+  width: auto;
+}
+
+/* it is cool that you use compund selector */
+.boosted-boards h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+}
+
+.boosted-boards h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+}
+
+.boosted-boards i {
+  font-size: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.high-performance {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  width: 100%;
+}
+
+.high-performance h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  padding-top: 44px;
+  padding-bottom: 11px;
+}
+
+.high-performance h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 51px;
+  padding-bottom: 15px;
+}
+
+.high-performance p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.high-performance button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+  background: #ff4a32;
+  border-radius: 35px;
+  width: 13%;
+  height: 2%;
+  border: none;
+}
+.high-performance button:hover {
+  background-color: #ff4a67;
+}
+.info-rev {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info-rev-item {
+  width: 28%;
+}
+.info-rev-item h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 5%;
+}
+
+.info-rev-item p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  padding-bottom: 5%;
+}
+
+.info-rev-item button {
+  font-family: 
+  
+  
+  
+  sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+  background: #ff4a32;
+  border-radius: 35px;
+  width: 20%;
+  height: 7%;
+  border: none;
+}
+
+.info-rev-item button:hover {
+  background-color: #ff4a67;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.types-of-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  margin-top: 3%;
+}
+.types-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.types-item {
+  position: absolute;
+  z-index: 2;
+  width: auto;
+}
+
+.types-item h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+}
+
+.types-item h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+}
+.video-example {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+.video {
+  width: 40%;
+}
+
+.armin-arlert {
+  width: 5%;
+  background: #cfcfcf;
+  margin-bottom: 3%;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  padding: 2%;
+}
+.accessories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.price {
+  text-align: center;
+  line-height: 100%;
+  font-family:'Roboto', sans-serif;
+}
+
+.price a {
+  font-weight: normal;
+  color: #ff4a32;
+  text-decoration: none;
+}
+
+.price span {
+  opacity: 0.5;
+}
+
+.markiz {
+  margin-bottom: 66px;
+}
+.shadow {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+  border-radius: 0px;
+}
+.benefits {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 308px;
+}
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 25%;
+  text-align: center;
+}
+
+.benefits-list h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 36px;
+  padding-bottom: 25px;
+}
+.benefits-list p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.explore-the-footer {
+  width: 30%;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  height: 325px;
+  padding-left: 8%;
+  padding-top: 49px;
+}
+.explore-the-footer h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 11px;
+}
+.explore-the-footer p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 19px;
+}
+ul li {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+}
+.last-line a {
+  color: #ff4a32;
+  text-decoration: none;
+}
+.last-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-info {
+  padding-left: 9%;
+  width: 50%;
+}
+.cards {
+  padding-right: 8%;
+}
